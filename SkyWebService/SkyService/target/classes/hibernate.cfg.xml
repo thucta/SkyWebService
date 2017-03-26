@@ -6,7 +6,7 @@
     <session-factory>
         <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
         <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
-        <property name="hibernate.connection.password">nguyentinh</property>
+        <property name="hibernate.connection.password">hochima</property>
         <property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;databaseName=NHAHANGKHACHSAN</property>
         <property name="hibernate.connection.username">sa</property>
         <property name="hibernate.current_session_context_class">thread</property>

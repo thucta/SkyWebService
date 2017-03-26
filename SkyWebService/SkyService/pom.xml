@@ -5,6 +5,8 @@
 	<artifactId>SkyService</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
+
+
 	<name>SkyService Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
@@ -35,7 +37,7 @@
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-client</artifactId>
-			<version>1.17.1</version>
+			<version>1.19.1</version>
 		</dependency>
 
 
@@ -45,7 +47,7 @@
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-bundle</artifactId>
-			<version>1.17.1</version>
+			<version>1.19.1</version>
 		</dependency>
 
 
@@ -61,7 +63,7 @@
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-server</artifactId>
-			<version>1.17.1</version>
+			<version>1.19.1</version>
 		</dependency>
 
 
@@ -69,7 +71,7 @@
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-core</artifactId>
-			<version>1.17.1</version>
+			<version>1.19.1</version>
 		</dependency>
 
 		<!--ldap -->
@@ -92,8 +94,9 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>5.1.0.Final</version>
+			<version>5.2.0.Final</version>
 		</dependency>
+
 
 
 		<dependency>
