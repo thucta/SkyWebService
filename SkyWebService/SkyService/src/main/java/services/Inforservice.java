@@ -102,7 +102,7 @@ public class Inforservice {
 	public List<InforRating> rating() {
 		List<InforRating> lst = new ArrayList<>();
 		try {
-			String str = "SELECT  E,N.rating  FROM ( select information ,count(information) rating from Rating Group By information ) N, Information E where N.information = Information.id order by N.rating DESC";
+			String str = "SELECT  E,N.rating  FROM ( select information , count(information) rating from Rating Group By information ) N, Information E where N.information = Information.id order by N.rating DESC";
 			Session session = MySessionFactory.getSessionFactory().openSession();
 			Query query = (Query) session.createQuery(str);
 			lst = query.list();

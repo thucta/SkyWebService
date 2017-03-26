@@ -73,3 +73,9 @@
 0:0:0:0:0:0:0:1 - - [26/Mar/2017:12:24:43 +0700] "GET /SkyService/rest/infor/rating HTTP/1.1" 200 14 http-bio-8080-exec-2 51
 0:0:0:0:0:0:0:1 - - [26/Mar/2017:12:26:43 +0700] "GET /SkyService/rest/infor/rating HTTP/1.1" 200 14 http-bio-8080-exec-1 1789
 0:0:0:0:0:0:0:1 - - [26/Mar/2017:12:32:32 +0700] "GET /SkyService/rest/infor/rating HTTP/1.1" 200 14 http-bio-8080-exec-1 1801
+0:0:0:0:0:0:0:1 - - [26/Mar/2017:12:50:40 +0700] "GET /SkyService/rest/infor/rating HTTP/1.1" 200 14 http-bio-8080-exec-1 1544
+0:0:0:0:0:0:0:1 - - [26/Mar/2017:12:50:59 +0700] "GET /SkyService/rest/infor/search?province=HCM HTTP/1.1" 200 14 http-bio-8080-exec-2 157
+0:0:0:0:0:0:0:1 - - [26/Mar/2017:12:51:16 +0700] "GET /SkyService/rest/infor/search?province=HCM&district=4 HTTP/1.1" 200 14 http-bio-8080-exec-3 70
+0:0:0:0:0:0:0:1 - - [26/Mar/2017:12:51:22 +0700] "GET /SkyService/rest/infor/search?partner=1&province=HCM HTTP/1.1" 200 1359 http-bio-8080-exec-5 105
+0:0:0:0:0:0:0:1 - - [26/Mar/2017:12:52:59 +0700] "GET /SkyService/rest/infor/search?partner=1&province=HCM HTTP/1.1" 200 1359 http-bio-8080-exec-1 1883
+0:0:0:0:0:0:0:1 - - [26/Mar/2017:12:53:15 +0700] "GET /SkyService/rest/infor/rating HTTP/1.1" 200 14 http-bio-8080-exec-2 53

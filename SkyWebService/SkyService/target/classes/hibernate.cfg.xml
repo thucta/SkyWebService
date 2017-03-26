@@ -16,13 +16,15 @@
         <property name="hibernate.search.autoregister_listeners">false</property>
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.validator.apply_to_ddl">false</property>
-        <mapping class="entity.Service" />
-        <mapping class="entity.Food" />
-        <mapping class="entity.Image" />
-        <mapping class="entity.Room" />
-        <mapping class="entity.Partner" />
         <mapping class="entity.Information" />
-        <mapping class="entity.Booking" />
+        <mapping class="entity.Image" />
+        <mapping class="entity.Food" />
+        <mapping class="entity.Rating" />
+        <mapping class="entity.Service" />
+        <mapping class="entity.Room" />
         <mapping class="entity.Users" />
+        <mapping class="entity.Serviceinfor" />
+        <mapping class="entity.Partner" />
+        <mapping class="entity.Booking" />
     </session-factory>
 </hibernate-configuration>
