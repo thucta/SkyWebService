@@ -8,6 +8,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
+import entity.InforRating;
 import entity.Information;
 import services.Inforservice;
 
@@ -59,6 +60,14 @@ public class InforResource {
 		Inforservice inforservice = new Inforservice();
 		return inforservice.listType();
 	}
+	@Path("/rating")
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<InforRating> rating() {
+		Inforservice inforservice = new Inforservice();
+		return inforservice.rating();
+	}
+	
 	
 	
 

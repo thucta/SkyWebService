@@ -23,6 +23,5 @@ public class RoomService {
 			ex.printStackTrace();
 		}
 		return lst;
-
 	}
 }
